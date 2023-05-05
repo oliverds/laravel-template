@@ -1,4 +1,4 @@
-@props(['align' => 'right', 'width' => '48', 'contentClasses' => 'py-1 bg-white'])
+@props(['align' => 'right', 'width' => '48', 'contentClasses' => 'bg-popover p-1'])
 
 @php
 switch ($align) {
@@ -36,7 +36,7 @@ switch ($width) {
             class="absolute z-50 mt-1 {{ $width }} rounded-md shadow-lg {{ $alignmentClasses }}"
             style="display: none;"
             @click="open = false">
-        <div class="rounded-md border bg-popover p-1 text-popover-foreground shadow-md {{ $contentClasses }}">
+        <div class="rounded-md border text-popover-foreground shadow-md {{ $contentClasses }}">
             {{ $content }}
         </div>
     </div>
