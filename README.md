@@ -18,3 +18,4 @@ The created application is configured with the following tools:
 - [Pest](https://pestphp.com)
 - [Tailwind CSS](https://tailwindcss.com)
 - [Laravel Breeze](https://laravel.com/docs/10.x/starter-kits#laravel-breeze)
+- [Blueprint](https://blueprint.laravelshift.com)
