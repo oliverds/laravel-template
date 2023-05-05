@@ -7,7 +7,7 @@ This is a template I use when starting a new Laravel project..
 You can create a new project via composer:
 
 ```bash
-composer create-project olivers/laravel-template
+composer create-project oliverds/laravel-template
 ```
 
 ## Toolset
